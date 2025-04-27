@@ -1,0 +1,386 @@
+{
+    "membres": [
+        {
+            "nom": "Arligone",
+            "role": "Fondateur",
+            "citation": "MC wish qui vit pour les caméras",
+            "image": "images/arligone-card.jpg",
+            "details": {
+                "role_specifique": "Main Canon",
+                "specialite": "Brig",
+                "date_arrivee": "Depuis 2013",
+                "jeux": "Sea of Thieves",
+                "bio": "Fondateur des Noctambules en 2013."
+            },
+            "reseaux": [
+                {
+                    "type": "twitch",
+                    "url": "https://www.twitch.tv/arligone",
+                    "nom_utilisateur": "Arligone"
+                }
+            ]
+        },
+        {
+            "nom": "Luxior13",
+            "role": "STAFF Noc",
+            "citation": "le goat",
+            "image": "images/luxior-card.jpg",
+            "details": {
+                "role_specifique": "N/A",
+                "specialite": "Sniper",
+                "date_arrivee": "Depuis 2013",
+                "jeux": "Call of Duty, Counter-Strike",
+                "bio": "Noc des premiere Heure."
+            },
+            "reseaux": [
+                {
+                    "type": "twitch",
+                    "url": "https://www.twitch.tv/luxior13",
+                    "nom_utilisateur": "luxior13"
+                }
+            ]
+        },
+        {
+            "nom": "Phenix22",
+            "role": "Membre",
+            "citation": "a rename",
+            "image": "svg",
+            "details": {
+                "role_specifique": "Helm",
+                "specialite": "Sloop",
+                "date_arrivee": "31/10/2023",
+                "jeux": "Sea of Thieves",
+                "bio": "a rename"
+            },
+            "reseaux": [
+                {
+                    "type": "twitch",
+                    "url": "https://www.twitch.tv/noc_phenix22",
+                    "nom_utilisateur": "noc_phenix22"
+                }
+            ]
+        },
+        {
+            "nom": "Redpeww",
+            "role": "N/A",
+            "citation": "N/A",
+            "image": "images/Redpeww.jpg",
+            "details": {
+                "role_specifique": "N/A",
+                "specialite": "N/A",
+                "date_arrivee": "15/12/2023",
+                "jeux": "N/A",
+                "bio": "N/A"
+            },
+            "reseaux": []
+        },
+        {
+            "nom": "Hixrey",
+            "role": "N/A",
+            "citation": "N/A",
+            "image": "images/Hixrey.jpg",
+            "details": {
+                "role_specifique": "N/A",
+                "specialite": "N/A",
+                "date_arrivee": "16/12/2023",
+                "jeux": "N/A",
+                "bio": "N/A"
+            },
+            "reseaux": []
+        },
+        {
+            "nom": "docgineko",
+            "role": "N/A",
+            "citation": "N/A",
+            "image": "images/docgineko.jpg",
+            "details": {
+                "role_specifique": "N/A",
+                "specialite": "N/A",
+                "date_arrivee": "02/01/2024",
+                "jeux": "N/A",
+                "bio": "N/A"
+            },
+            "reseaux": []
+        },
+        {
+            "nom": "Fournaise",
+            "role": "N/A",
+            "citation": "N/A",
+            "image": "images/Fournaise.jpg",
+            "details": {
+                "role_specifique": "N/A",
+                "specialite": "N/A",
+                "date_arrivee": "09/02/2024",
+                "jeux": "N/A",
+                "bio": "N/A"
+            },
+            "reseaux": []
+        },
+        {
+            "nom": "NenTonn",
+            "role": "N/A",
+            "citation": "N/A",
+            "image": "images/NenTonn.jpg",
+            "details": {
+                "role_specifique": "N/A",
+                "specialite": "N/A",
+                "date_arrivee": "23/03/2024",
+                "jeux": "N/A",
+                "bio": "N/A"
+            },
+            "reseaux": []
+        },
+        {
+            "nom": "asx Wizard",
+            "role": "N/A",
+            "citation": "N/A",
+            "image": "images/asx Wizard.jpg",
+            "details": {
+                "role_specifique": "N/A",
+                "specialite": "N/A",
+                "date_arrivee": "03/04/2024",
+                "jeux": "N/A",
+                "bio": "N/A"
+            },
+            "reseaux": []
+        },
+        {
+            "nom": "mourha",
+            "role": "N/A",
+            "citation": "N/A",
+            "image": "images/mourha.jpg",
+            "details": {
+                "role_specifique": "N/A",
+                "specialite": "N/A",
+                "date_arrivee": "05/04/2024",
+                "jeux": "N/A",
+                "bio": "N/A"
+            },
+            "reseaux": []
+        },
+        {
+            "nom": "Crapok",
+            "role": "N/A",
+            "citation": "N/A",
+            "image": "images/Crapok.jpg",
+            "details": {
+                "role_specifique": "N/A",
+                "specialite": "N/A",
+                "date_arrivee": "17/04/2024",
+                "jeux": "N/A",
+                "bio": "N/A"
+            },
+            "reseaux": []
+        },
+        {
+            "nom": "flatiezz",
+            "role": "N/A",
+            "citation": "N/A",
+            "image": "images/flatiezz.jpg",
+            "details": {
+                "role_specifique": "N/A",
+                "specialite": "N/A",
+                "date_arrivee": "15/05/2024",
+                "jeux": "N/A",
+                "bio": "N/A"
+            },
+            "reseaux": []
+        },
+        {
+            "nom": "Elouan",
+            "role": "N/A",
+            "citation": "N/A",
+            "image": "images/Elouan.jpg",
+            "details": {
+                "role_specifique": "N/A",
+                "specialite": "N/A",
+                "date_arrivee": "28/05/2024",
+                "jeux": "N/A",
+                "bio": "N/A"
+            },
+            "reseaux": []
+        },
+        {
+            "nom": "Khartage",
+            "role": "N/A",
+            "citation": "N/A",
+            "image": "images/Khartage.jpg",
+            "details": {
+                "role_specifique": "N/A",
+                "specialite": "N/A",
+                "date_arrivee": "01/06/2024",
+                "jeux": "N/A",
+                "bio": "N/A"
+            },
+            "reseaux": []
+        },
+        {
+            "nom": "Cacatoes",
+            "role": "N/A",
+            "citation": "N/A",
+            "image": "images/Cacatoes.jpg",
+            "details": {
+                "role_specifique": "N/A",
+                "specialite": "N/A",
+                "date_arrivee": "02/06/2024",
+                "jeux": "N/A",
+                "bio": "N/A"
+            },
+            "reseaux": []
+        },
+        {
+            "nom": "Markarthur",
+            "role": "N/A",
+            "citation": "N/A",
+            "image": "images/Markarthur.jpg",
+            "details": {
+                "role_specifique": "N/A",
+                "specialite": "N/A",
+                "date_arrivee": "07/06/2024",
+                "jeux": "N/A",
+                "bio": "N/A"
+            },
+            "reseaux": []
+        },
+        {
+            "nom": "Arcasto",
+            "role": "N/A",
+            "citation": "N/A",
+            "image": "images/Arcasto.jpg",
+            "details": {
+                "role_specifique": "N/A",
+                "specialite": "N/A",
+                "date_arrivee": "07/06/2024",
+                "jeux": "N/A",
+                "bio": "N/A"
+            },
+            "reseaux": []
+        },
+        {
+            "nom": "Pou",
+            "role": "N/A",
+            "citation": "N/A",
+            "image": "images/Pou.jpg",
+            "details": {
+                "role_specifique": "N/A",
+                "specialite": "N/A",
+                "date_arrivee": "25/06/2024",
+                "jeux": "N/A",
+                "bio": "N/A"
+            },
+            "reseaux": []
+        },
+        {
+            "nom": "Winter",
+            "role": "N/A",
+            "citation": "N/A",
+            "image": "images/Winter.jpg",
+            "details": {
+                "role_specifique": "N/A",
+                "specialite": "N/A",
+                "date_arrivee": "27/07/2024",
+                "jeux": "N/A",
+                "bio": "N/A"
+            },
+            "reseaux": []
+        },
+        {
+            "nom": "Selzo",
+            "role": "N/A",
+            "citation": "N/A",
+            "image": "images/Selzo.jpg",
+            "details": {
+                "role_specifique": "N/A",
+                "specialite": "N/A",
+                "date_arrivee": "06/09/2024",
+                "jeux": "N/A",
+                "bio": "N/A"
+            },
+            "reseaux": []
+        },
+        {
+            "nom": "scudo",
+            "role": "N/A",
+            "citation": "N/A",
+            "image": "images/scudo.jpg",
+            "details": {
+                "role_specifique": "N/A",
+                "specialite": "N/A",
+                "date_arrivee": "31/10/2024",
+                "jeux": "N/A",
+                "bio": "N/A"
+            },
+            "reseaux": []
+        },
+        {
+            "nom": "Kirikou",
+            "role": "N/A",
+            "citation": "N/A",
+            "image": "images/Kirikou.jpg",
+            "details": {
+                "role_specifique": "N/A",
+                "specialite": "N/A",
+                "date_arrivee": "11/11/2024",
+                "jeux": "N/A",
+                "bio": "N/A"
+            },
+            "reseaux": []
+        },
+        {
+            "nom": "Zéde.",
+            "role": "N/A",
+            "citation": "N/A",
+            "image": "images/Zéde..jpg",
+            "details": {
+                "role_specifique": "N/A",
+                "specialite": "N/A",
+                "date_arrivee": "01/12/2024",
+                "jeux": "N/A",
+                "bio": "N/A"
+            },
+            "reseaux": []
+        },
+        {
+            "nom": "Arex",
+            "role": "N/A",
+            "citation": "N/A",
+            "image": "images/Arex.jpg",
+            "details": {
+                "role_specifique": "N/A",
+                "specialite": "N/A",
+                "date_arrivee": "15/12/2024",
+                "jeux": "N/A",
+                "bio": "N/A"
+            },
+            "reseaux": []
+        },
+        {
+            "nom": "Osmeth",
+            "role": "N/A",
+            "citation": "N/A",
+            "image": "images/Osmeth.jpg",
+            "details": {
+                "role_specifique": "N/A",
+                "specialite": "N/A",
+                "date_arrivee": "05/03/2025",
+                "jeux": "N/A",
+                "bio": "N/A"
+            },
+            "reseaux": []
+        },
+        {
+            "nom": "Theoman",
+            "role": "N/A",
+            "citation": "N/A",
+            "image": "images/Theoman.jpg",
+            "details": {
+                "role_specifique": "N/A",
+                "specialite": "N/A",
+                "date_arrivee": "22/03/2025",
+                "jeux": "N/A",
+                "bio": "N/A"
+            },
+            "reseaux": []
+        }
+    ]
+} 

@@ -42,80 +42,10 @@
             "categorie": "recrutement"
         },
         {
-            "date": "15 MAR 2025",
-            "titre": "Tournoi Valorant - Saison 2",
-            "description": "3ème place au tournoi Valorant Saison 2. Une belle performance de l'équipe.",
-            "categorie": "tournoi",
-            "classement": 3
-        },
-        {
             "date": "05 MAR 2025",
             "titre": "Nouveau Recrutement",
             "description": "Osmeth intègre l'équipe Noctambule. Une nouvelle recrue qui renforce notre effectif.",
             "categorie": "recrutement"
-        },
-        {
-            "date": "28 FÉV 2025",
-            "titre": "Championnat League of Legends",
-            "description": "4ème place au Championnat League of Legends. Une compétition intense.",
-            "categorie": "tournoi",
-            "classement": 4
-        },
-        {
-            "date": "20 FÉV 2025",
-            "titre": "Tournoi Fortnite - Duo",
-            "description": "Victoire au tournoi Fortnite en duo. Une performance remarquable.",
-            "categorie": "tournoi",
-            "classement": 1
-        },
-        {
-            "date": "10 FÉV 2025",
-            "titre": "Championnat Rocket League",
-            "description": "2ème place au Championnat Rocket League. Une belle performance en équipe.",
-            "categorie": "tournoi",
-            "classement": 2
-        },
-        {
-            "date": "05 FÉV 2025",
-            "titre": "Tournoi Apex Legends",
-            "description": "3ème place au tournoi Apex Legends. Une compétition serrée.",
-            "categorie": "tournoi",
-            "classement": 3
-        },
-        {
-            "date": "25 JAN 2025",
-            "titre": "Championnat CS:GO",
-            "description": "Victoire au Championnat CS:GO. Une performance exceptionnelle.",
-            "categorie": "tournoi",
-            "classement": 1
-        },
-        {
-            "date": "15 JAN 2025",
-            "titre": "Tournoi Rainbow Six Siege",
-            "description": "2ème place au tournoi Rainbow Six Siege. Une belle performance tactique.",
-            "categorie": "tournoi",
-            "classement": 2
-        },
-        {
-            "date": "05 JAN 2025",
-            "titre": "Championnat Dota 2",
-            "description": "4ème place au Championnat Dota 2. Une compétition intense.",
-            "categorie": "tournoi",
-            "classement": 4
-        },
-        {
-            "date": "25 DÉC 2024",
-            "titre": "Tournoi Overwatch 2",
-            "description": "Victoire au tournoi Overwatch 2. Une performance remarquable.",
-            "categorie": "tournoi",
-            "classement": 1
-        },
-        {
-            "date": "15 DÉC 2024",
-            "titre": "Championnat Call of Duty",
-            "description": "3ème place au Championnat Call of Duty. Une compétition serrée.",
-            "categorie": "tournoi",
-            "classement": 3
         },
         {
             "date": "15 DÉC 2024",
