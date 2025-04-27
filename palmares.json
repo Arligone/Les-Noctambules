@@ -1,0 +1,124 @@
+{
+    "tournois": [
+        {
+            "date": "26 AVR 2025",
+            "titre": "Sloop Wars",
+            "description": "Victoire au tournoi Sloop Wars. Une performance exceptionnelle de l'équipe Noctambule.",
+            "classement": 1,
+            "jeu": "Sea of Thieves",
+            "players": ["Fournaise", "Kirikou", "Slz Winter"]
+        },
+        {
+            "date": "18 AVR 2025",
+            "titre": "FUERTE DE PAPEL - Saison 1",
+            "description": "Victoire au tournoi FUERTE DE PAPEL Saison 1. Une performance historique de l'équipe Noctambule.",
+            "classement": 1,
+            "jeu": "Sea of Thieves",
+            "players": ["MarkArthur", "Luzaga", "Redpeww", "Fournaise", "Kirikou", "Arcasto"]
+        },
+        {
+            "date": "12 AVR 2025",
+            "titre": "Compote Cup - Brig",
+            "description": "2ème place au Compote Cup en Brig. Une belle performance en équipe.",
+            "classement": 2,
+            "jeu": "Sea of Thieves",
+            "players": ["MarkArthur", "Luzaga", "Redpeww"]
+        },
+        {
+            "date": "29 MAR 2025",
+            "titre": "Compote Cup - Solo Sloop",
+            "description": "Victoire au Compote Cup en Solo Sloop. Une performance exceptionnelle de Slz Winter.",
+            "classement": 1,
+            "jeu": "Sea of Thieves",
+            "players": ["Slz Winter"]
+        },
+        {
+            "date": "09 MAR 2025",
+            "titre": "Flag of Glory - Saison 1",
+            "description": "Victoire au tournoi Flag of Glory Saison 1. Une performance remarquable de l'équipe.",
+            "classement": 1,
+            "jeu": "Sea of Thieves",
+            "players": ["Redpeww", "Luzaga", "Nitnak (Sand)", "Flattiezz", "N3ntonn"]
+        },
+        {
+            "date": "23 FÉV 2025",
+            "titre": "SkullBall - Saison 3",
+            "description": "Victoire au tournoi SkullBall Saison 3. Une performance exceptionnelle.",
+            "classement": 1,
+            "jeu": "Sea of Thieves",
+            "players": ["Redpeww", "Luzaga", "Slz Winter", "Fournaise", "N3ntonn", "Markarthur"]
+        },
+        {
+            "date": "07 FÉV 2025",
+            "titre": "Smuggler Showdown - solo",
+            "description": "2ème place au Smuggler Showdown en solo. Une belle performance individuelle.",
+            "classement": 2,
+            "jeu": "Sea of Thieves",
+            "players": ["Slz Winter"]
+        },
+        {
+            "date": "07 FÉV 2025",
+            "titre": "Smuggler Showdown - Duo",
+            "description": "5ème place au Smuggler Showdown en duo. Une performance honorable.",
+            "classement": 5,
+            "jeu": "Sea of Thieves",
+            "players": ["Woody", "Crapok"]
+        },
+        {
+            "date": "25 JAN 2025",
+            "titre": "Compote Cup - Duo Sloop",
+            "description": "Victoire au Compote Cup en Duo Sloop. Une performance remarquable.",
+            "classement": 1,
+            "jeu": "Sea of Thieves",
+            "players": ["Slz Winter", "Luzaga"]
+        },
+        {
+            "date": "11 JAN 2025",
+            "titre": "Memorial's Arena - Saison 1",
+            "description": "Victoire au tournoi Memorial's Arena Saison 1. Une performance exceptionnelle.",
+            "classement": 1,
+            "jeu": "Sea of Thieves",
+            "players": ["Slz Winter", "Arligone"]
+        },
+        {
+            "date": "03 DÉC 2024",
+            "titre": "Domitrum",
+            "description": "4ème place au tournoi Domitrum. Une compétition intense.",
+            "classement": 4,
+            "jeu": "Sea of Thieves",
+            "players": ["AsxWizard", "N3ntonn", "Kirikou"]
+        },
+        {
+            "date": "20 OCT 2024",
+            "titre": "SkullBall - Saison 2",
+            "description": "Victoire au tournoi SkullBall Saison 2. Une performance remarquable.",
+            "classement": 1,
+            "jeu": "Sea of Thieves",
+            "players": ["Redpeww", "Luzaga", "Hixrey", "Slz Winter", "Fournaise", "Elouan"]
+        },
+        {
+            "date": "27 SEP 2024",
+            "titre": "Grog de la Liberté - Edition 2024",
+            "description": "2ème place au Grog de la Liberté 2024. Une belle performance.",
+            "classement": 2,
+            "jeu": "Sea of Thieves",
+            "players": ["N3nT0nn", "BoitDlaJavel", "Elouan 6", "FIattieZzTwitch", "Hixrey"]
+        },
+        {
+            "date": "22 JUI 2024",
+            "titre": "SkullBall - Saison 1",
+            "description": "Victoire au tournoi SkullBall Saison 1. Une performance exceptionnelle.",
+            "classement": 1,
+            "jeu": "Sea of Thieves",
+            "players": ["Redpeww", "Luzaga", "Phenix22", "Slz Winter", "Fournaise", "Arligone"]
+        },
+        {
+            "date": "06 JUI 2024",
+            "titre": "Brig' Attitude",
+            "description": "3ème place au tournoi Brig' Attitude. Une belle performance.",
+            "classement": 3,
+            "jeu": "Sea of Thieves",
+            "players": ["Redpeww", "Phenix22", "Slz Winter"]
+        }
+    ]
+} 

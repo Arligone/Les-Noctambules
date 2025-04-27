@@ -1,0 +1,265 @@
+{
+    "actualites": [
+        {
+            "date": "26 AVR 2025",
+            "titre": "Sloop Wars",
+            "description": "Victoire au tournoi Sloop Wars. Une performance exceptionnelle de l'équipe Noctambule.",
+            "categorie": "tournoi",
+            "classement": 1
+        },
+        {
+            "date": "19 AVR 2025",
+            "titre": "Smuggler Showdown - Duo",
+            "description": "Victoire au Smuggler Showdown en duo. Une performance exceptionnelle de Crapok et DridriWoody.",
+            "categorie": "tournoi",
+            "classement": 5
+        },
+        {
+            "date": "18 AVR 2025",
+            "titre": "FUERTE DE PAPEL - Saison 1",
+            "description": "Victoire au tournoi FUERTE DE PAPEL Saison 1. Une performance historique de l'équipe Noctambule.",
+            "categorie": "tournoi",
+            "classement": 1
+        },
+        {
+            "date": "12 AVR 2025",
+            "titre": "CC solo - Saison 1",
+            "description": "2ème place au Championnat solo Saison 1. Une belle performance individuelle.",
+            "categorie": "tournoi",
+            "classement": 2
+        },
+        {
+            "date": "29 MAR 2025",
+            "titre": "Compote Cup - Solo Sloop",
+            "description": "Victoire au Compote Cup en Solo Sloop. Une performance exceptionnelle de Slz Winter.",
+            "categorie": "tournoi",
+            "classement": 1
+        },
+        {
+            "date": "22 MAR 2025",
+            "titre": "Nouveau Recrutement",
+            "description": "Theoman rejoint les rangs de Noctambule. Un nouveau talent pour notre équipe.",
+            "categorie": "recrutement"
+        },
+        {
+            "date": "15 MAR 2025",
+            "titre": "Tournoi Valorant - Saison 2",
+            "description": "3ème place au tournoi Valorant Saison 2. Une belle performance de l'équipe.",
+            "categorie": "tournoi",
+            "classement": 3
+        },
+        {
+            "date": "05 MAR 2025",
+            "titre": "Nouveau Recrutement",
+            "description": "Osmeth intègre l'équipe Noctambule. Une nouvelle recrue qui renforce notre effectif.",
+            "categorie": "recrutement"
+        },
+        {
+            "date": "28 FÉV 2025",
+            "titre": "Championnat League of Legends",
+            "description": "4ème place au Championnat League of Legends. Une compétition intense.",
+            "categorie": "tournoi",
+            "classement": 4
+        },
+        {
+            "date": "20 FÉV 2025",
+            "titre": "Tournoi Fortnite - Duo",
+            "description": "Victoire au tournoi Fortnite en duo. Une performance remarquable.",
+            "categorie": "tournoi",
+            "classement": 1
+        },
+        {
+            "date": "10 FÉV 2025",
+            "titre": "Championnat Rocket League",
+            "description": "2ème place au Championnat Rocket League. Une belle performance en équipe.",
+            "categorie": "tournoi",
+            "classement": 2
+        },
+        {
+            "date": "05 FÉV 2025",
+            "titre": "Tournoi Apex Legends",
+            "description": "3ème place au tournoi Apex Legends. Une compétition serrée.",
+            "categorie": "tournoi",
+            "classement": 3
+        },
+        {
+            "date": "25 JAN 2025",
+            "titre": "Championnat CS:GO",
+            "description": "Victoire au Championnat CS:GO. Une performance exceptionnelle.",
+            "categorie": "tournoi",
+            "classement": 1
+        },
+        {
+            "date": "15 JAN 2025",
+            "titre": "Tournoi Rainbow Six Siege",
+            "description": "2ème place au tournoi Rainbow Six Siege. Une belle performance tactique.",
+            "categorie": "tournoi",
+            "classement": 2
+        },
+        {
+            "date": "05 JAN 2025",
+            "titre": "Championnat Dota 2",
+            "description": "4ème place au Championnat Dota 2. Une compétition intense.",
+            "categorie": "tournoi",
+            "classement": 4
+        },
+        {
+            "date": "25 DÉC 2024",
+            "titre": "Tournoi Overwatch 2",
+            "description": "Victoire au tournoi Overwatch 2. Une performance remarquable.",
+            "categorie": "tournoi",
+            "classement": 1
+        },
+        {
+            "date": "15 DÉC 2024",
+            "titre": "Championnat Call of Duty",
+            "description": "3ème place au Championnat Call of Duty. Une compétition serrée.",
+            "categorie": "tournoi",
+            "classement": 3
+        },
+        {
+            "date": "15 DÉC 2024",
+            "titre": "Nouveau Recrutement",
+            "description": "Arex rejoint l'équipe Noctambule. Un nouveau talent qui s'ajoute à notre équipe.",
+            "categorie": "recrutement"
+        },
+        {
+            "date": "01 DÉC 2024",
+            "titre": "Nouveau Recrutement",
+            "description": "Zéde intègre l'équipe Noctambule. Une nouvelle recrue prometteuse.",
+            "categorie": "recrutement"
+        },
+        {
+            "date": "11 NOV 2024",
+            "titre": "Nouveau Recrutement",
+            "description": "Kirikou rejoint les rangs de Noctambule. Un nouveau talent pour notre équipe.",
+            "categorie": "recrutement"
+        },
+        {
+            "date": "31 OCT 2024",
+            "titre": "Nouveau Recrutement",
+            "description": "Scudo intègre l'équipe Noctambule. Une nouvelle recrue qui renforce notre effectif.",
+            "categorie": "recrutement"
+        },
+        {
+            "date": "06 SEP 2024",
+            "titre": "Nouveau Recrutement",
+            "description": "Selzo rejoint l'équipe Noctambule. Un nouveau talent qui s'ajoute à notre équipe.",
+            "categorie": "recrutement"
+        },
+        {
+            "date": "25 JUIN 2024",
+            "titre": "Nouveau Recrutement",
+            "description": "Pou rejoint les rangs de Noctambule. Un nouveau talent pour notre équipe.",
+            "categorie": "recrutement"
+        },
+        {
+            "date": "07 JUIN 2024",
+            "titre": "Nouveau Recrutement",
+            "description": "Noc Markarthur, Luzaga et Arcasto intègrent l'équipe Noctambule. Trois nouvelles recrues qui renforcent notre effectif.",
+            "categorie": "recrutement"
+        },
+        {
+            "date": "02 JUIN 2024",
+            "titre": "Nouveau Recrutement",
+            "description": "Cacatoes rejoint l'équipe Noctambule. Un nouveau talent qui s'ajoute à notre équipe.",
+            "categorie": "recrutement"
+        },
+        {
+            "date": "01 JUIN 2024",
+            "titre": "Nouveau Recrutement",
+            "description": "Khartage intègre l'équipe Noctambule. Une nouvelle recrue qui renforce notre effectif.",
+            "categorie": "recrutement"
+        },
+        {
+            "date": "28 MAI 2024",
+            "titre": "Nouveau Recrutement",
+            "description": "Elouan rejoint les rangs de Noctambule. Un nouveau talent pour notre équipe.",
+            "categorie": "recrutement"
+        },
+        {
+            "date": "15 MAI 2024",
+            "titre": "Nouveau Recrutement",
+            "description": "FlattieZ intègre l'équipe Noctambule. Une nouvelle recrue prometteuse.",
+            "categorie": "recrutement"
+        },
+        {
+            "date": "17 AVR 2024",
+            "titre": "Nouveau Recrutement",
+            "description": "Crapok rejoint l'équipe Noctambule. Un nouveau talent qui s'ajoute à notre équipe.",
+            "categorie": "recrutement"
+        },
+        {
+            "date": "05 AVR 2024",
+            "titre": "Nouveau Recrutement",
+            "description": "Mourha intègre l'équipe Noctambule. Une nouvelle recrue qui renforce notre effectif.",
+            "categorie": "recrutement"
+        },
+        {
+            "date": "03 AVR 2024",
+            "titre": "Nouveau Recrutement",
+            "description": "Wizard rejoint les rangs de Noctambule. Un nouveau talent pour notre équipe.",
+            "categorie": "recrutement"
+        },
+        {
+            "date": "25 FÉV 2024",
+            "titre": "Maillot Édition 2024 Disponible !",
+            "description": "Le maillot édition 2024 des Noctambules est disponible ! Confortable et performant, il arbore un design innovant aux couleurs de notre équipe. Affichez votre soutien avec fierté.",
+            "categorie": "evenement"
+        },
+        {
+            "date": "23 MAR 2024",
+            "titre": "Nouveau Recrutement",
+            "description": "N3ntonn intègre l'équipe Noctambule. Une nouvelle recrue prometteuse.",
+            "categorie": "recrutement"
+        },
+        {
+            "date": "09 FÉV 2024",
+            "titre": "Nouveau Recrutement",
+            "description": "Fournaise rejoint l'équipe Noctambule. Un nouveau talent qui s'ajoute à notre équipe.",
+            "categorie": "recrutement"
+        },
+        {
+            "date": "02 JAN 2024",
+            "titre": "Nouveau Recrutement",
+            "description": "Docgineko intègre l'équipe Noctambule. Une nouvelle recrue qui renforce notre effectif.",
+            "categorie": "recrutement"
+        },
+        {
+            "date": "16 DÉC 2023",
+            "titre": "Nouveau Recrutement",
+            "description": "Hixrey rejoint les rangs de Noctambule. Un nouveau talent pour notre équipe.",
+            "categorie": "recrutement"
+        },
+        {
+            "date": "15 DÉC 2023",
+            "titre": "Nouveau Recrutement",
+            "description": "Redpeww intègre l'équipe Noctambule. Une nouvelle recrue prometteuse.",
+            "categorie": "recrutement"
+        },
+        {
+            "date": "27 DÉC 2023",
+            "titre": "Nouveau Recrutement",
+            "description": "Slz Winter intègre l'équipe Noctambule. Une nouvelle recrue prometteuse.",
+            "categorie": "recrutement"
+        },
+        {
+            "date": "31 OCT 2023",
+            "titre": "Nouveau Recrutement",
+            "description": "Phénix rejoint l'équipe Noctambule. Un nouveau talent qui s'ajoute à notre effectif.",
+            "categorie": "recrutement"
+        },
+        {
+            "date": "30 MAR 2013",
+            "titre": "Nouveau Recrutement",
+            "description": "Luxior rejoint les rangs de Noctambule. Une nouvelle force pour notre équipe.",
+            "categorie": "recrutement"
+        },
+        {
+            "date": "29 MAR 2013",
+            "titre": "Nouveau Recrutement",
+            "description": "Bienvenue à Arligone qui rejoint l'équipe Noctambule. Un nouveau talent qui renforce notre équipe.",
+            "categorie": "recrutement"
+        }
+    ]
+} 

@@ -1,0 +1,329 @@
+/* Styles pour la page d'actualités */
+.page-title {
+    text-align: center;
+    padding: 4rem 2rem;
+    background: linear-gradient(135deg, rgba(75, 0, 130, 0.2), rgba(138, 43, 226, 0.2));
+    border-radius: 15px;
+    margin: 2rem auto;
+    max-width: 90%;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    position: relative;
+    overflow: hidden;
+}
+
+.page-title::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(45deg, transparent, rgba(255, 255, 255, 0.1), transparent);
+    transform: translateX(-100%);
+    animation: shimmer 3s infinite;
+}
+
+@keyframes shimmer {
+    100% {
+        transform: translateX(100%);
+    }
+}
+
+.page-title h1 {
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 3.5rem;
+    margin-bottom: 1rem;
+    color: var(--text-light);
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.3);
+    position: relative;
+    z-index: 1;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.page-title .subtitle {
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 1.5rem;
+    color: var(--acid-green);
+    font-weight: 500;
+    text-shadow: 0 0 10px rgba(0, 255, 0, 0.3);
+    position: relative;
+    z-index: 1;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+}
+
+/* Filtres */
+.filters {
+    padding: 2rem 5%;
+}
+
+.filter-container {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+    margin-bottom: 3rem;
+}
+
+.filter-btn {
+    padding: 0.6rem 1.5rem;
+    background-color: var(--dark-surface);
+    color: var(--text-light);
+    border: 1px solid var(--light-purple);
+    border-radius: 25px;
+    font-size: 0.9rem;
+    letter-spacing: 1px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.filter-btn:hover, .filter-btn.active {
+    background-color: var(--mid-purple);
+    color: var(--text-light);
+    border-color: var(--acid-green);
+    box-shadow: 0 0 10px rgba(127, 255, 0, 0.5);
+}
+
+/* Styles spécifiques pour les boutons de filtre par catégorie */
+.filter-btn[data-filter="tournoi"] {
+    border-color: var(--acid-green);
+    color: var(--acid-green);
+}
+
+.filter-btn[data-filter="tournoi"]:hover,
+.filter-btn[data-filter="tournoi"].active {
+    background-color: var(--acid-green);
+    color: var(--dark-bg);
+    border-color: var(--acid-green);
+    box-shadow: 0 0 10px var(--acid-green);
+}
+
+.filter-btn[data-filter="recrutement"] {
+    border-color: var(--flashy-pink);
+    color: var(--flashy-pink);
+}
+
+.filter-btn[data-filter="recrutement"]:hover,
+.filter-btn[data-filter="recrutement"].active {
+    background-color: var(--flashy-pink);
+    color: var(--dark-bg);
+    border-color: var(--flashy-pink);
+    box-shadow: 0 0 10px var(--flashy-pink);
+}
+
+.filter-btn[data-filter="evenement"] {
+    border-color: var(--neon-blue);
+    color: var(--neon-blue);
+}
+
+.filter-btn[data-filter="evenement"]:hover,
+.filter-btn[data-filter="evenement"].active {
+    background-color: var(--neon-blue);
+    color: var(--dark-bg);
+    border-color: var(--neon-blue);
+    box-shadow: 0 0 10px var(--neon-blue);
+}
+
+.filter-btn[data-filter="all"] {
+    border-color: var(--light-purple);
+    color: var(--light-purple);
+}
+
+.filter-btn[data-filter="all"]:hover,
+.filter-btn[data-filter="all"].active {
+    background-color: var(--light-purple);
+    color: var(--dark-bg);
+    border-color: var(--light-purple);
+    box-shadow: 0 0 10px var(--light-purple);
+}
+
+/* Timeline */
+.timeline-section {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 4rem 2rem;
+    background-color: var(--dark-surface);
+    position: relative;
+}
+
+.timeline-section::before {
+    content: "";
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    background: radial-gradient(circle, var(--acid-green) 0%, transparent 70%);
+    top: -100px;
+    right: -100px;
+    opacity: 0.1;
+    z-index: 0;
+}
+
+.timeline {
+    position: relative;
+    padding: 2rem 0;
+}
+
+.timeline::before {
+    content: '';
+    position: absolute;
+    left: 50%;
+    top: 0;
+    bottom: 0;
+    width: 2px;
+    background: linear-gradient(90deg, var(--acid-green), var(--flashy-pink));
+    transform: translateX(-50%);
+}
+
+.timeline-item {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 3rem;
+    position: relative;
+}
+
+.timeline-date {
+    position: absolute;
+    left: 0;
+    width: 200px;
+    text-align: right;
+    padding-right: 2rem;
+    color: var(--acid-green);
+    font-family: 'Rajdhani', sans-serif;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+.timeline-content {
+    background: linear-gradient(135deg, rgba(43, 28, 73, 0.7) 0%, rgba(23, 21, 34, 0.9) 100%);
+    border-radius: 12px;
+    padding: 2rem;
+    width: 500px;
+    margin-left: 250px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+    border: 1px solid rgba(123, 85, 171, 0.2);
+    position: relative;
+    backdrop-filter: blur(5px);
+}
+
+.timeline-content::before {
+    content: '';
+    position: absolute;
+    left: -10px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 20px;
+    height: 20px;
+    background: var(--acid-green);
+    border-radius: 50%;
+    box-shadow: 0 0 10px var(--acid-green);
+}
+
+.timeline-content h3 {
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 1.5rem;
+    color: var(--acid-green);
+    margin-bottom: 10px;
+    position: relative;
+    padding-bottom: 0.5rem;
+}
+
+.timeline-content h3::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 50px;
+    height: 2px;
+    background: linear-gradient(90deg, var(--acid-green), var(--flashy-pink));
+}
+
+.timeline-content p {
+    color: var(--text-light);
+    line-height: 1.6;
+    margin-bottom: 1rem;
+}
+
+.article-tags {
+    display: flex;
+    gap: 0.5rem;
+    flex-wrap: wrap;
+}
+
+.tag {
+    padding: 0.3rem 0.8rem;
+    border-radius: 4px;
+    font-size: 0.8rem;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.tag.tournoi {
+    background-color: var(--acid-green);
+    color: var(--dark-bg);
+}
+
+.tag.recrutement {
+    background-color: var(--flashy-pink);
+    color: var(--dark-bg);
+}
+
+.tag.evenement {
+    background-color: var(--neon-blue);
+    color: var(--dark-bg);
+}
+
+.tag.sot {
+    background-color: var(--light-purple);
+    color: var(--text-light);
+}
+
+.tag.charity {
+    background-color: var(--mid-purple);
+    color: var(--text-light);
+}
+
+/* Styles pour les tags */
+.timeline-tags .tag {
+    background: transparent;
+    border: 1px solid var(--light-purple);
+    color: var(--text-light);
+    padding: 0.3rem 0.8rem;
+    border-radius: 25px;
+    font-size: 0.9rem;
+    letter-spacing: 1px;
+    margin-right: 5px;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .page-title h1 {
+        font-size: 3rem;
+    }
+
+    .timeline::before {
+        left: 30px;
+    }
+
+    .timeline-item {
+        flex-direction: column;
+    }
+
+    .timeline-date {
+        position: relative;
+        width: auto;
+        text-align: left;
+        padding-right: 0;
+        margin-bottom: 1rem;
+    }
+
+    .timeline-content {
+        width: auto;
+        margin-left: 60px;
+    }
+
+    .filter-container {
+        flex-wrap: wrap;
+    }
+} 

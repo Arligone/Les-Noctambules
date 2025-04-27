@@ -1,0 +1,326 @@
+/* Shop Section Styles */
+.shop-section {
+    padding: 4rem 5%;
+    position: relative;
+    background: var(--dark-bg);
+}
+
+.filter-container {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-bottom: 3rem;
+    flex-wrap: wrap;
+}
+
+.filter-btn {
+    padding: 0.8rem 1.5rem;
+    background: transparent;
+    border: 2px solid var(--acid-green);
+    color: var(--acid-green);
+    border-radius: 4px;
+    cursor: pointer;
+    font-family: 'Rajdhani', sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    transition: all 0.3s ease;
+}
+
+.filter-btn:hover,
+.filter-btn.active {
+    background: var(--acid-green);
+    color: var(--dark-bg);
+    box-shadow: 0 0 10px var(--acid-green);
+}
+
+.products-grid {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(250px, 1fr));
+    gap: 2rem;
+    margin-top: 2rem;
+    transition: opacity 0.3s ease-in-out;
+    min-height: 350px;
+    position: relative;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.product-card {
+    height: 350px;
+    perspective: 1000px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    opacity: 1;
+    visibility: visible;
+    transform: scale(1);
+    position: relative;
+    width: 100%;
+}
+
+.card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+}
+
+.product-card:hover .card-inner {
+    transform: rotateY(180deg);
+}
+
+.card-front,
+.card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    border-radius: 8px;
+    overflow: hidden;
+    background: linear-gradient(135deg, rgba(43, 28, 73, 0.7) 0%, rgba(23, 21, 34, 0.9) 100%);
+    border: 1px solid rgba(123, 85, 171, 0.2);
+    backdrop-filter: blur(5px);
+}
+
+.card-front {
+    display: flex;
+    flex-direction: column;
+}
+
+.card-back {
+    transform: rotateY(180deg);
+    padding: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.product-image {
+    position: relative;
+    height: 60%;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.product-img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    transition: transform 0.3s ease;
+}
+
+.product-card:hover .product-img {
+    transform: scale(1.1);
+}
+
+.product-info {
+    padding: 1rem;
+    background: rgba(14, 11, 20, 0.9);
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.product-name {
+    color: var(--text-light);
+    margin-bottom: 0.5rem;
+    font-size: 1.2rem;
+}
+
+.product-price {
+    color: var(--acid-green);
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.product-details {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.detail-row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    padding-bottom: 0.5rem;
+    border-bottom: 1px solid rgba(123, 85, 171, 0.2);
+}
+
+.detail-label {
+    color: var(--acid-green);
+    font-weight: 700;
+}
+
+.detail-value {
+    color: var(--text-light);
+}
+
+.product-description {
+    text-align: left;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: var(--text-light);
+    line-height: 1.6;
+}
+
+.neon-btn {
+    display: inline-block;
+    margin-top: 10px;
+    text-align: center;
+    width: 100%;
+    padding: 10px 20px;
+    background: transparent;
+    border: 2px solid #00ff00;
+    color: #00ff00;
+    font-family: 'Rajdhani', sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    transition: all 0.3s ease;
+    text-decoration: none;
+    box-shadow: 0 0 10px rgba(0, 255, 0, 0.3);
+}
+
+.neon-btn:hover {
+    background: #00ff00;
+    color: #000;
+    box-shadow: 0 0 20px rgba(0, 255, 0, 0.6);
+}
+
+.limited-badge {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    background: var(--flashy-pink);
+    color: var(--text-light);
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 0.8rem;
+    box-shadow: 0 0 10px var(--flashy-pink);
+    animation: pulse-badge 2s infinite;
+}
+
+@keyframes pulse-badge {
+    0% {
+        opacity: 0.8;
+        box-shadow: 0 0 10px var(--flashy-pink);
+    }
+    50% {
+        opacity: 1;
+        box-shadow: 0 0 20px var(--flashy-pink);
+    }
+    100% {
+        opacity: 0.8;
+        box-shadow: 0 0 10px var(--flashy-pink);
+    }
+}
+
+.button-container {
+    margin-top: auto;
+    padding: 20px 0;
+}
+
+/* Responsive Design */
+@media (max-width: 1200px) {
+    .products-grid {
+        grid-template-columns: repeat(2, minmax(250px, 1fr));
+        padding: 0 2rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .products-grid {
+        grid-template-columns: minmax(250px, 1fr);
+        padding: 0 1rem;
+    }
+
+    .product-card {
+        height: 320px;
+    }
+
+    .filter-container {
+        gap: 0.5rem;
+    }
+
+    .filter-btn {
+        padding: 0.6rem 1rem;
+        font-size: 0.9rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .product-card {
+        height: 300px;
+    }
+
+    .product-name {
+        font-size: 1rem;
+    }
+
+    .product-price {
+        font-size: 1.2rem;
+    }
+}
+
+.page-title {
+    text-align: center;
+    padding: 4rem 2rem;
+    background: linear-gradient(135deg, rgba(75, 0, 130, 0.2), rgba(138, 43, 226, 0.2));
+    border-radius: 15px;
+    margin: 2rem auto;
+    max-width: 90%;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    position: relative;
+    overflow: hidden;
+}
+
+.page-title::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(45deg, transparent, rgba(255, 255, 255, 0.1), transparent);
+    transform: translateX(-100%);
+    animation: shimmer 3s infinite;
+}
+
+@keyframes shimmer {
+    100% {
+        transform: translateX(100%);
+    }
+}
+
+.page-title h1 {
+    font-size: 3.5rem;
+    margin-bottom: 1rem;
+    color: var(--text-light);
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.3);
+    position: relative;
+    z-index: 1;
+}
+
+.page-title .subtitle {
+    font-size: 1.5rem;
+    color: var(--acid-green);
+    font-weight: 500;
+    text-shadow: 0 0 10px rgba(0, 255, 0, 0.3);
+    position: relative;
+    z-index: 1;
+}
+
+.subtitle {
+    font-size: 1.2rem;
+    letter-spacing: 2px;
+    color: var(--acid-green);
+    margin-top: 0.5rem;
+} 

@@ -1,0 +1,56 @@
+{
+    "produits": [
+        {
+            "id": "maillot-2024-violet",
+            "nom": "Maillot NOC 2024 Violet",
+            "description": "Maillot officiel des Noctambules - Collection 2024. Design exclusif aux couleurs de l'équipe.",
+            "prix": 39.90,
+            "image": "maillotv.jpg",
+            "categorie": "vetements",
+            "stock": true,
+            "details": {
+                "tailles": ["XS", "S", "M", "L", "XL", "XXL", "3XL", "4XL", "5XL"],
+                "couleur": "Violet"
+            },
+            "lien": "https://teams.spized.com/fr/lesnoctambules/maillot-noc-black-purple/ts25416?ts=LesNoctambules"
+        },
+        {
+            "id": "maillot-2024-blanc",
+            "nom": "Maillot NOC 2024 Blanc",
+            "description": "Maillot officiel des Noctambules - Collection 2024. Design exclusif aux couleurs de l'équipe.",
+            "prix": 39.90,
+            "image": "maillotb.jpg",
+            "categorie": "vetements",
+            "stock": true,
+            "details": {
+                "tailles": ["XS", "S", "M", "L", "XL", "XXL", "3XL", "4XL", "5XL"],
+                "couleur": "Blanc"
+            },
+            "lien": "https://teams.spized.com/fr/lesnoctambules/maillot-noc-black-white/ts25417?ts=LesNoctambules"
+        },
+        {
+            "id": "mousepad-noc",
+            "nom": "Tapis de souris NOC",
+            "description": "Tapis de souris gaming aux couleurs de Noctambule. Surface optimisée pour la précision.",
+            "prix": 24.99,
+            "image": "mousepad.jpg",
+            "categorie": "accessoires",
+            "stock": true,
+            "details": {
+                "dimensions": "900x400mm"
+            }
+        },
+        {
+            "id": "collector-box",
+            "nom": "Box Collector NOC",
+            "description": "Édition limitée incluant un maillot dédicacé, des stickers exclusifs et un poster collector.",
+            "prix": 149.99,
+            "image": "collector-box.jpg",
+            "categorie": "edition-limitee",
+            "stock": true,
+            "details": {
+                "tailles_disponibles": ["S", "M", "L", "XL"]
+            }
+        }
+    ]
+} 

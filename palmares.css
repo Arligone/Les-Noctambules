@@ -1,0 +1,412 @@
+/* Palmarès Page Specific Styles */
+
+body {
+    background: url('bg-palmares.jpg') no-repeat center center fixed;
+    background-size: cover;
+    position: relative;
+}
+
+body::before {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(135deg, rgba(43, 28, 73, 0.85) 0%, rgba(23, 21, 34, 0.95) 100%);
+    z-index: -1;
+}
+
+.page-title {
+    text-align: center;
+    padding: 4rem 2rem;
+    background: linear-gradient(135deg, rgba(75, 0, 130, 0.2), rgba(138, 43, 226, 0.2));
+    border-radius: 15px;
+    margin: 2rem auto;
+    max-width: 90%;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    position: relative;
+    overflow: hidden;
+}
+
+.page-title::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(45deg, transparent, rgba(255, 255, 255, 0.1), transparent);
+    transform: translateX(-100%);
+    animation: shimmer 3s infinite;
+}
+
+@keyframes shimmer {
+    100% {
+        transform: translateX(100%);
+    }
+}
+
+.page-title h1 {
+    font-size: 3.5rem;
+    margin-bottom: 1rem;
+    color: var(--text-light);
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.3);
+    position: relative;
+    z-index: 1;
+}
+
+.page-title .subtitle {
+    font-size: 1.5rem;
+    color: var(--acid-green);
+    font-weight: 500;
+    text-shadow: 0 0 10px rgba(0, 255, 0, 0.3);
+    position: relative;
+    z-index: 1;
+}
+
+.subtitle {
+    font-size: 1.2rem;
+    letter-spacing: 2px;
+    color: var(--acid-green);
+    margin-top: 0.5rem;
+}
+
+/* Filters */
+.filters {
+    padding: 2rem 5%;
+}
+
+.filter-container {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+    margin-bottom: 3rem;
+}
+
+.filter-btn {
+    padding: 0.6rem 1.5rem;
+    background-color: var(--dark-surface);
+    color: var(--text-light);
+    border: 1px solid var(--light-purple);
+    border-radius: 25px;
+    font-size: 0.9rem;
+    letter-spacing: 1px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.filter-btn:hover, .filter-btn.active {
+    background-color: var(--mid-purple);
+    color: var(--text-light);
+    border-color: var(--acid-green);
+    box-shadow: 0 0 10px rgba(127, 255, 0, 0.5);
+}
+
+/* Timeline Section */
+.timeline-section {
+    padding: 0 5% 5rem;
+}
+
+.timeline {
+    position: relative;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 2rem 0;
+}
+
+.timeline::before {
+    content: '';
+    position: absolute;
+    width: 4px;
+    background: linear-gradient(to bottom, var(--acid-green), var(--flashy-pink));
+    top: 0;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 4px;
+}
+
+.timeline-item {
+    padding: 1rem 0;
+    position: relative;
+    width: 100%;
+    display: flex;
+    transition: all 0.5s ease;
+}
+
+.timeline-item:nth-child(odd) {
+    justify-content: flex-start;
+}
+
+.timeline-item:nth-child(even) {
+    justify-content: flex-end;
+}
+
+.timeline-date {
+    position: absolute;
+    top: 1.5rem;
+    left: 50%;
+    transform: translateX(-50%);
+    background: var(--dark-surface);
+    color: #ff00b3;
+    padding: 0.4rem 1rem;
+    border-radius: 20px;
+    font-weight: 700;
+    font-size: 0.9rem;
+    letter-spacing: 1px;
+    z-index: 1;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(255, 0, 179, 0.2);
+    border: 1px solid #ff00b3;
+    transition: all 0.3s ease;
+}
+
+.timeline-date:hover {
+    background: #ff00b3;
+    color: var(--dark-bg);
+    box-shadow: 0 0 15px rgba(255, 0, 179, 0.4);
+}
+
+.timeline-content {
+    width: 45%;
+    padding: 1.5rem;
+    background: linear-gradient(135deg, rgba(43, 28, 73, 0.7) 0%, rgba(23, 21, 34, 0.9) 100%);
+    border-radius: 8px;
+    position: relative;
+    border: 1px solid rgba(127, 255, 0, 0.2);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+.timeline-content::after {
+    content: '';
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background: var(--acid-green);
+    top: 2rem;
+    transform: rotate(45deg);
+    box-shadow: 0 0 5px rgba(127, 255, 0, 0.5);
+}
+
+.timeline-item:nth-child(odd) .timeline-content::after {
+    right: -10px;
+}
+
+.timeline-item:nth-child(even) .timeline-content::after {
+    left: -10px;
+}
+
+.achievement-icons {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-top: 1.5rem;
+}
+
+.achievement-icon {
+    width: 60px;
+    height: 60px;
+}
+
+.medal-svg {
+    width: 100%;
+    height: 100%;
+}
+
+.medal-circle {
+    fill: var(--acid-green);
+    stroke: var(--dark-bg);
+    stroke-width: 2;
+}
+
+.medal-circle.silver {
+    fill: #C0C0C0;
+    stroke: #A0A0A0;
+}
+
+.medal-circle.bronze {
+    fill: #CD7F32;
+    stroke: #A66D2A;
+}
+
+.medal-circle.blue {
+    fill: #1E90FF;
+    stroke: #1874CD;
+}
+
+.medal-text {
+    fill: var(--dark-bg);
+    font-size: 24px;
+    font-weight: bold;
+    font-family: Arial, sans-serif;
+}
+
+.medal-ribbon {
+    fill: var(--acid-green);
+}
+
+.medal-ribbon.silver {
+    fill: #A0A0A0;
+}
+
+.medal-ribbon.bronze {
+    fill: #A66D2A;
+}
+
+.medal-ribbon.blue {
+    fill: #1874CD;
+}
+
+.prize {
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: var(--acid-green);
+}
+
+/* Stats Section */
+.stats-section {
+    padding: 5rem 5%;
+    background-color: var(--dark-surface);
+    position: relative;
+}
+
+.stats-section::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: 
+        radial-gradient(circle at 20% 30%, rgba(255, 0, 179, 0.1) 0%, transparent 50%),
+        radial-gradient(circle at 80% 70%, rgba(127, 255, 0, 0.1) 0%, transparent 50%);
+    z-index: 0;
+}
+
+.stats-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.stat-card {
+    background: linear-gradient(135deg, rgba(43, 28, 73, 0.7) 0%, rgba(23, 21, 34, 0.9) 100%);
+    border-radius: 8px;
+    padding: 2rem;
+    width: 200px;
+    text-align: center;
+    border: 1px solid rgba(127, 255, 0, 0.2);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.stat-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.4), 0 0 15px rgba(127, 255, 0, 0.3);
+}
+
+.stat-value {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: var(--flashy-pink);
+    margin-bottom: 0.5rem;
+    text-shadow: 0 0 10px rgba(255, 0, 179, 0.3);
+}
+
+.stat-value.counted {
+    color: var(--acid-green);
+    text-shadow: 0 0 10px rgba(127, 255, 0, 0.3);
+}
+
+.stat-label {
+    font-size: 1rem;
+    letter-spacing: 1px;
+    color: var(--text-light);
+}
+
+/* Filter Animation */
+.hide {
+    opacity: 0;
+    transform: scale(0.8);
+    transition: all 0.5s ease;
+    position: absolute;
+    pointer-events: none;
+}
+
+.show {
+    opacity: 1;
+    transform: scale(1);
+    transition: all 0.5s ease;
+    position: relative;
+    pointer-events: auto;
+}
+
+.participants {
+    margin-top: 1rem;
+    padding: 1rem;
+    background: rgba(43, 28, 73, 0.3);
+    border-radius: 8px;
+    border: 1px solid rgba(127, 255, 0, 0.1);
+}
+
+.participants h4 {
+    font-size: 0.9rem;
+    color: var(--flashy-pink);
+    margin-bottom: 0.5rem;
+}
+
+.participants ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+}
+
+.participants li {
+    background: var(--dark-surface);
+    padding: 0.3rem 0.8rem;
+    border-radius: 15px;
+    font-size: 0.85rem;
+    color: var(--text-light);
+    border: 1px solid rgba(127, 255, 0, 0.2);
+    transition: all 0.3s ease;
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    margin: 0.2rem;
+}
+
+.participants li:hover {
+    background: var(--mid-purple);
+    border-color: var(--flashy-pink);
+    transform: translateY(-2px);
+    box-shadow: 0 2px 8px rgba(255, 0, 179, 0.2);
+}
+
+.game-info {
+    margin: 1rem 0;
+}
+
+.game-tag {
+    display: inline-block;
+    padding: 0.3rem 0.8rem;
+    background: rgba(43, 28, 73, 0.3);
+    border: 1px solid var(--light-purple);
+    border-radius: 15px;
+    font-size: 0.85rem;
+    color: var(--text-light);
+    letter-spacing: 1px;
+    transition: all 0.3s ease;
+}
+
+.game-tag:hover {
+    background: var(--mid-purple);
+    border-color: var(--acid-green);
+    box-shadow: 0 0 10px rgba(127, 255, 0, 0.3);
+}
+
