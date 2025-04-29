@@ -36,6 +36,7 @@
                 <li><a href="shop.html">Shop</a></li>
                 <li><a href="videos.html">Vidéos</a></li>
                 <li><a href="actus.html">Actualités</a></li>
+                <li><a href="rejoins-nous.html">Rejoins-nous</a></li>
             </ul>
         </nav>
     </header>
@@ -52,7 +53,9 @@
                 <div class="section-line"></div>
             </div>
             <div class="featured-stream-container">
-                <div id="featured-stream" class="featured-stream"></div>
+                <div class="video-container">
+                    <div id="featured-stream" class="featured-stream"></div>
+                </div>
                 <div class="stream-info">
                     <h3 id="featured-title">Chargement...</h3>
                     <div class="streamer-info">
@@ -136,121 +139,6 @@
                 </div>
             </div>
         </section>
-
-        <section class="schedule-section">
-            <div class="section-header">
-                <h2>PROGRAMME DE LA SEMAINE</h2>
-                <div class="section-line"></div>
-            </div>
-            <div class="schedule-container">
-                <div class="schedule-day">
-                    <h3>LUNDI</h3>
-                    <div class="schedule-item">
-                        <div class="schedule-time">19:00 - 22:00</div>
-                        <div class="schedule-content">
-                            <span class="streamer">Arligone</span>
-                            <span class="game">Sea of Thieves</span>
-                        </div>
-                    </div>
-                    <div class="schedule-item">
-                        <div class="schedule-time">22:00 - 01:00</div>
-                        <div class="schedule-content">
-                            <span class="streamer">Redpeww</span>
-                            <span class="game">Gaming Session</span>
-                        </div>
-                    </div>
-                </div>
-                <div class="schedule-day">
-                    <h3>MARDI</h3>
-                    <div class="schedule-item">
-                        <div class="schedule-time">18:00 - 20:00</div>
-                        <div class="schedule-content">
-                            <span class="streamer">ShadowBlade</span>
-                            <span class="game">MOBA Ranked</span>
-                        </div>
-                    </div>
-                    <div class="schedule-item">
-                        <div class="schedule-time">20:00 - 23:00</div>
-                        <div class="schedule-content">
-                            <span class="streamer">PhantomGhost</span>
-                            <span class="game">Open World Exploration</span>
-                        </div>
-                    </div>
-                </div>
-                <div class="schedule-day">
-                    <h3>MERCREDI</h3>
-                    <div class="schedule-item">
-                        <div class="schedule-time">19:00 - 22:00</div>
-                        <div class="schedule-content">
-                            <span class="streamer">Team Stream</span>
-                            <span class="game">Scrims & Training</span>
-                        </div>
-                    </div>
-                    <div class="schedule-item">
-                        <div class="schedule-time">22:00 - 01:00</div>
-                        <div class="schedule-content">
-                            <span class="streamer">Elbat</span>
-                            <span class="game">Gaming Session</span>
-                            <a href="https://www.twitch.tv/elbat_" class="streamer-link" target="_blank">twitch.tv/elbat_</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="schedule-day">
-                    <h3>JEUDI</h3>
-                    <div class="schedule-item">
-                        <div class="schedule-time">19:00 - 21:00</div>
-                        <div class="schedule-content">
-                            <span class="streamer">Arligone</span>
-                            <span class="game">Sea of Thieves</span>
-                        </div>
-                    </div>
-                    <div class="schedule-item">
-                        <div class="schedule-time">21:00 - 00:00</div>
-                        <div class="schedule-content">
-                            <span class="streamer">Redpeww</span>
-                            <span class="game">Gaming Session</span>
-                        </div>
-                    </div>
-                </div>
-                <div class="schedule-day">
-                    <h3>VENDREDI</h3>
-                    <div class="schedule-item">
-                        <div class="schedule-time">20:00 - 02:00</div>
-                        <div class="schedule-content">
-                            <span class="streamer">Team Stream</span>
-                            <span class="game">Friday Night Gaming</span>
-                        </div>
-                    </div>
-                </div>
-                <div class="schedule-day">
-                    <h3>SAMEDI</h3>
-                    <div class="schedule-item">
-                        <div class="schedule-time">14:00 - 18:00</div>
-                        <div class="schedule-content">
-                            <span class="streamer">Arligone</span>
-                            <span class="game">Sea of Thieves</span>
-                        </div>
-                    </div>
-                    <div class="schedule-item">
-                        <div class="schedule-time">18:00 - 22:00</div>
-                        <div class="schedule-content">
-                            <span class="streamer">Redpeww</span>
-                            <span class="game">Gaming Session</span>
-                        </div>
-                    </div>
-                </div>
-                <div class="schedule-day">
-                    <h3>DIMANCHE</h3>
-                    <div class="schedule-item">
-                        <div class="schedule-time">16:00 - 20:00</div>
-                        <div class="schedule-content">
-                            <span class="streamer">Team Stream</span>
-                            <span class="game">Competition Day</span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
     </main>
 
     <footer>
@@ -285,6 +173,101 @@
             </div>
         </div>
     </footer>
+
+    <style>
+        .featured-stream-container {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 2rem;
+            margin: 2rem 0;
+        }
+        .video-container {
+            position: relative;
+            width: 100%;
+            padding-bottom: 100%; /* Crée un conteneur carré */
+            background: rgba(43, 28, 73, 0.5);
+            border-radius: 10px;
+            overflow: hidden;
+        }
+        .featured-stream {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            border: none;
+        }
+        .stream-info {
+            display: flex;
+            flex-direction: column;
+            gap: 1.5rem;
+            padding: 1.5rem;
+            background: rgba(43, 28, 73, 0.5);
+            border-radius: 10px;
+        }
+        .stream-info h3 {
+            color: var(--acid-green);
+            margin: 0;
+        }
+        .streamer-info {
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+        }
+        .streamer-avatar {
+            width: 60px;
+            height: 60px;
+        }
+        .streamer-info p {
+            margin: 0;
+            color: var(--text-light);
+        }
+        .streamer-info span {
+            color: var(--flashy-pink);
+            font-size: 0.9rem;
+        }
+        .stream-stats {
+            display: flex;
+            gap: 2rem;
+        }
+        .stat {
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+        .stat-icon {
+            width: 24px;
+            height: 24px;
+        }
+        .watch-btn {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+            padding: 0.8rem 1.5rem;
+            background: var(--acid-green);
+            color: var(--dark-bg);
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+            transition: all 0.3s ease;
+        }
+        .watch-btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(127, 255, 0, 0.3);
+        }
+        .btn-icon {
+            width: 20px;
+            height: 20px;
+        }
+        @media (max-width: 768px) {
+            .featured-stream-container {
+                grid-template-columns: 1fr;
+            }
+            .video-container {
+                padding-bottom: 56.25%; /* Ratio 16:9 pour mobile */
+            }
+        }
+    </style>
 </body>
 </html>
 
