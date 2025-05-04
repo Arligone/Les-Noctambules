@@ -1,0 +1,43 @@
+{
+    "membres": [
+        {
+            "id": "1",
+            "nom": "DridriWoody",
+            "role": "Graphiste",
+            "date_entree": "15/04/25",
+            "image": "images/woody.jpg",
+            "description": "N/A",
+            "statistiques": {
+                "victoires": "N/A",
+                "defaites": "N/A",
+                "ratio": "N/A"
+            }
+        },
+        {
+            "id": "2",
+            "nom": "Noc",
+            "role": "Capitaine",
+            "date_entree": "01/01/2024",
+            "image": "images/noc.jpg",
+            "description": "Capitaine de l'équipe Noctambule",
+            "statistiques": {
+                "victoires": "150",
+                "defaites": "50",
+                "ratio": "75%"
+            }
+        },
+        {
+            "id": "3",
+            "nom": "Shadow",
+            "role": "Co-capitaine",
+            "date_entree": "01/01/2024",
+            "image": "images/shadow.jpg",
+            "description": "Co-capitaine et stratège de l'équipe",
+            "statistiques": {
+                "victoires": "120",
+                "defaites": "40",
+                "ratio": "75%"
+            }
+        }
+    ]
+} 
