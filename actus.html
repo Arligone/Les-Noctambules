@@ -9,7 +9,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@500;700&family=Permanent+Marker&display=swap" rel="stylesheet">
-    <script src="script.js" defer></script>
+    <script src="script.js" defer onerror="console.error('Erreur lors du chargement de script.js')"></script>
 </head>
 <body>
     <header>
@@ -84,5 +84,27 @@
             </div>
         </div>
     </footer>
+    <script>
+        // S'assurer que le DOM est complètement chargé
+        document.addEventListener('DOMContentLoaded', function() {
+            console.log('DOM chargé, vérification du script...');
+            if (typeof loadActualites === 'function') {
+                console.log('La fonction loadActualites est disponible, appel en cours...');
+                loadActualites();
+            } else {
+                console.error('La fonction loadActualites n\'est pas définie. Vérifiez que script.js est correctement chargé.');
+            }
+        });
+
+        // Vérifier si le script est chargé
+        window.addEventListener('load', function() {
+            console.log('Page complètement chargée, vérification du script...');
+            if (typeof loadActualites === 'function') {
+                console.log('La fonction loadActualites est disponible après le chargement complet');
+            } else {
+                console.error('La fonction loadActualites n\'est toujours pas définie après le chargement complet');
+            }
+        });
+    </script>
 </body>
 </html> 

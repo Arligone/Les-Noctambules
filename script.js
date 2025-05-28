@@ -177,13 +177,6 @@ function loadActualites() {
                         <p>${featuredNews.description}</p>
                         <a href="actus.html" class="neon-btn">Lire la suite</a>
                     </div>
-                    <div class="card-decoration">
-                        <svg viewBox="0 0 100 100" class="trophy-svg">
-                            <path d="M50,10 L60,20 L70,10 L70,30 C70,45 60,55 50,60 C40,55 30,45 30,30 L30,10 L40,20 L50,10 Z" class="trophy-path" />
-                            <rect x="40" y="60" width="20" height="10" class="trophy-base" />
-                            <rect x="35" y="70" width="30" height="5" class="trophy-stand" />
-                        </svg>
-                    </div>
                 `;
                 featuredNewsElement.innerHTML = '';
                 featuredNewsElement.appendChild(featuredCard);
@@ -249,7 +242,8 @@ function loadActualites() {
             
             const errorMessage = `
                 <div class="error-message">
-                    <p>Impossible de charger les actualités. Veuillez réessayer plus tard.</p>
+                    <p>Désolé, une erreur est survenue lors du chargement des actualités.</p>
+                    <p>Veuillez réessayer plus tard.</p>
                 </div>
             `;
             
@@ -260,13 +254,23 @@ function loadActualites() {
 }
 
 function loadPalmares() {
+    console.log('Début du chargement du palmarès...');
     fetch('palmares.json')
-        .then(response => response.json())
+        .then(response => {
+            console.log('Réponse reçue du serveur:', response);
+            if (!response.ok) {
+                throw new Error(`HTTP error! status: ${response.status}`);
+            }
+            return response.json();
+        })
         .then(data => {
+            console.log('Données JSON reçues:', data);
             // Calcul des statistiques
             const participations = data.tournois.length;
             const victoires = data.tournois.filter(t => t.classement === 1).length;
             const podiums = data.tournois.filter(t => t.classement <= 3).length;
+
+            console.log('Statistiques calculées:', { participations, victoires, podiums });
 
             // Mise à jour des statistiques
             document.getElementById('participations').textContent = participations;
@@ -278,11 +282,27 @@ function loadPalmares() {
             animateValue('victoires', 0, victoires, 2000);
             animateValue('podiums', 0, podiums, 2000);
 
+            // Trier les tournois par date (du plus récent au plus ancien)
+            const tournoisTries = data.tournois.sort((a, b) => {
+                const [jourA, moisA, anneeA] = a.date.split(' ');
+                const [jourB, moisB, anneeB] = b.date.split(' ');
+                const moisMap = {
+                    'JAN': 0, 'FEV': 1, 'MAR': 2, 'AVR': 3, 'MAI': 4, 'JUI': 5,
+                    'JUL': 6, 'AOU': 7, 'SEP': 8, 'OCT': 9, 'NOV': 10, 'DEC': 11
+                };
+                const dateA = new Date(parseInt(anneeA), moisMap[moisA], parseInt(jourA));
+                const dateB = new Date(parseInt(anneeB), moisMap[moisB], parseInt(jourB));
+                return dateB - dateA;
+            });
+
+            console.log('Tournois triés:', tournoisTries);
+
             // Affichage de la timeline
             const timeline = document.querySelector('.timeline');
             if (timeline) {
+                console.log('Timeline trouvée, mise à jour en cours...');
                 timeline.innerHTML = '';
-                data.tournois.forEach(tournoi => {
+                tournoisTries.forEach(tournoi => {
                     const timelineItem = document.createElement('div');
                     timelineItem.className = 'timeline-item';
                     timelineItem.innerHTML = `
@@ -314,9 +334,23 @@ function loadPalmares() {
                     `;
                     timeline.appendChild(timelineItem);
                 });
+                console.log('Timeline mise à jour avec succès');
+            } else {
+                console.error('Élément timeline non trouvé dans le DOM');
             }
         })
-        .catch(error => console.error('Erreur lors du chargement du palmarès:', error));
+        .catch(error => {
+            console.error('Erreur lors du chargement du palmarès:', error);
+            // Afficher un message d'erreur à l'utilisateur
+            const timeline = document.querySelector('.timeline');
+            if (timeline) {
+                timeline.innerHTML = `
+                    <div class="error-message">
+                        <p>Impossible de charger les tournois. Veuillez réessayer plus tard.</p>
+                    </div>
+                `;
+            }
+        });
 }
 
 function loadTournaments() {

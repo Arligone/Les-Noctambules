@@ -44,7 +44,7 @@
             "nom": "Phenix22",
             "role": "Membre",
             "citation": "a rename",
-            "image": "svg",
+            "image": "images/phenix.png",
             "details": {
                 "role_specifique": "Helm",
                 "specialite": "Sloop",
@@ -379,6 +379,20 @@
                 "date_arrivee": "22/03/2025",
                 "jeux": "N/A",
                 "bio": "N/A"
+            },
+            "reseaux": []
+        },
+        {
+            "nom": "Amnesya",
+            "role": "Content Creator",
+            "citation": "N/A",
+            "image": "images/amnesya.jpg",
+            "details": {
+                "role_specifique": "Content Creator",
+                "specialite": "Barreur Sloop",
+                "date_arrivee": "01/04/2025",
+                "jeux": "Sea of Thieves",
+                "bio": "Content Creator spécialisé dans Sea of Thieves"
             },
             "reseaux": []
         }

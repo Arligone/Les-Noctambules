@@ -1,35 +1,49 @@
 {
     "actualites": [
         {
-            "date": "26 AVR 2025",
+            "date": "28 AVR 2025",
+            "titre": "Compote Cup Gali",
+            "description": "Victoire au tournoi Compote Cup Gali. Une performance exceptionnelle de l'équipe Noctambule.",
+            "categorie": "tournoi",
+            "classement": 1
+        },
+        {
+            "date": "27 AVR 2025",
+            "titre": "ChronoClash",
+            "description": "Victoire au tournoi ChronoClash. Une performance remarquable de l'équipe Noctambule.",
+            "categorie": "tournoi",
+            "classement": 1
+        },
+        {
+            "date": "26 AVR 2024",
             "titre": "Sloop Wars",
             "description": "Victoire au tournoi Sloop Wars. Une performance exceptionnelle de l'équipe Noctambule.",
             "categorie": "tournoi",
             "classement": 1
         },
         {
-            "date": "19 AVR 2025",
+            "date": "19 AVR 2024",
             "titre": "Smuggler Showdown - Duo",
             "description": "Victoire au Smuggler Showdown en duo. Une performance exceptionnelle de Crapok et DridriWoody.",
             "categorie": "tournoi",
             "classement": 5
         },
         {
-            "date": "18 AVR 2025",
+            "date": "18 AVR 2024",
             "titre": "FUERTE DE PAPEL - Saison 1",
             "description": "Victoire au tournoi FUERTE DE PAPEL Saison 1. Une performance historique de l'équipe Noctambule.",
             "categorie": "tournoi",
             "classement": 1
         },
         {
-            "date": "12 AVR 2025",
+            "date": "12 AVR 2024",
             "titre": "CC solo - Saison 1",
             "description": "2ème place au Championnat solo Saison 1. Une belle performance individuelle.",
             "categorie": "tournoi",
             "classement": 2
         },
         {
-            "date": "29 MAR 2025",
+            "date": "29 MAR 2024",
             "titre": "Compote Cup - Solo Sloop",
             "description": "Victoire au Compote Cup en Solo Sloop. Une performance exceptionnelle de Slz Winter.",
             "categorie": "tournoi",

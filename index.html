@@ -108,5 +108,27 @@
             </div>
         </div>
     </footer>
+    <script>
+        // S'assurer que le DOM est complètement chargé
+        document.addEventListener('DOMContentLoaded', function() {
+            console.log('DOM chargé, vérification du script...');
+            if (typeof loadActualites === 'function') {
+                console.log('La fonction loadActualites est disponible, appel en cours...');
+                loadActualites();
+            } else {
+                console.error('La fonction loadActualites n\'est pas définie. Vérifiez que script.js est correctement chargé.');
+            }
+        });
+
+        // Vérifier si le script est chargé
+        window.addEventListener('load', function() {
+            console.log('Page complètement chargée, vérification du script...');
+            if (typeof loadActualites === 'function') {
+                console.log('La fonction loadActualites est disponible après le chargement complet');
+            } else {
+                console.error('La fonction loadActualites n\'est toujours pas définie après le chargement complet');
+            }
+        });
+    </script>
 </body>
 </html>

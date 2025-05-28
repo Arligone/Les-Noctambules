@@ -1,6 +1,22 @@
 {
     "tournois": [
         {
+            "date": "18 MAI 2025",
+            "titre": "Compote Cup - Galion",
+            "description": "Victoire au tournoi Compote Cup en Galion. Une performance exceptionnelle de l'équipe Noctambule.",
+            "classement": 1,
+            "jeu": "Sea of Thieves",
+            "players": ["N3ntonn", "Panda(sand)", "Luzaga", "Redpeww", "MarkArthur"]
+        },
+        {
+            "date": "16 MAI 2025",
+            "titre": "ChronoClash",
+            "description": "Victoire au tournoi Compote Cup en Galion. Une performance exceptionnelle de l'équipe Noctambule.",
+            "classement": 1,
+            "jeu": "Sea of Thieves",
+            "players": ["Scud0"]
+        },
+        {
             "date": "26 AVR 2025",
             "titre": "Sloop Wars",
             "description": "Victoire au tournoi Sloop Wars. Une performance exceptionnelle de l'équipe Noctambule.",
@@ -98,8 +114,8 @@
         },
         {
             "date": "27 SEP 2024",
-            "titre": "Grog de la Liberté - Edition 2024",
-            "description": "2ème place au Grog de la Liberté 2024. Une belle performance.",
+            "titre": "Grog de la Liberté - Edition 2023",
+            "description": "2ème place au Grog de la Liberté 2023. Une belle performance.",
             "classement": 2,
             "jeu": "Sea of Thieves",
             "players": ["N3nT0nn", "BoitDlaJavel", "Elouan 6", "FIattieZzTwitch", "Hixrey"]
